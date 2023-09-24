@@ -1,0 +1,101 @@
+
+.routes-container{
+  background-color: black;
+  width: 100%;
+}
+.map-container{
+  display: block; /* Make the image a block element to center it */
+  margin:  50px; /* Center the image horizontally */
+  justify-content: center;
+  background-color: black;
+}
+
+.landing-style{
+    background-color: black;
+    width: 100%; /* Set image width to 100px */
+    height: 1000px; /* Set image height to 100px */
+    justify-content: center;
+}
+
+.image-container-landing {
+    text-align: center; /* Center align the content horizontally */
+    padding-top: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+/*i think the image is 803px*/
+.image-container-landing img {
+    width: 150px; /* Set image width to 100px */
+    height: 150px; /* Set image height to 100px */
+    display: block; /* Make the image a block element to center it */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .image-container-landing h2 {
+    margin-top: 10px; /* Add some space between the image and title */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #fff;
+  }
+
+.flex-container{
+    display: flex;
+}
+
+.image-holder-style{
+    background-color: black;
+}
+
+.header-style {
+    background-color: #222; /* Dark grey background color */
+    color: #fff; /* White text color */
+    max-width:  368px; /* Limit the width to 15% of the screen */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: left; /* Left-justify text */
+    
+}
+.footer-style {
+    background-color: #223; /* Dark grey background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+/* CSS for the subtitle */
+h2 {
+    color: #eee; /* Darker grey for subtitle */
+    padding: 15px;
+    text-decoration-line: underline;
+    text-decoration-color: #fff;
+  }
+  
+  /* CSS for the links */
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px; /* Add some space between each link */
+    color: #fff;
+    
+}
+
+p{
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: #fff;
+    
+}
+  
+p:hover {
+    color: yellow;
+    text-decoration-color: yellow;
+    background-color: red;
+  }
+  
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .flex-container{
+        display: block;
+    }
+  }
