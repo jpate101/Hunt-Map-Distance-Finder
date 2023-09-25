@@ -2,11 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
-
-    function navLanding() {
-        //alert('Button clicked!');
-    }
-
     return (
         <div className="header-style">
           <h1>Hunt Map Distance Finder</h1>
