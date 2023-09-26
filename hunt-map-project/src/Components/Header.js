@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className="header-style">
-          <h1>Hunt Map Distance Finder</h1>
-          <h2>Maps</h2>
+          <Link to="/Hunt-Map-Distance-Finder"><h1>Hunt Map Distance Finder</h1></Link>
+          <Link to="/Hunt-Map-Distance-Finder"><h2>Maps</h2></Link>
           <ul>
             <li>
               <Link to="/S"><p>Stillwater Bayou</p></Link>

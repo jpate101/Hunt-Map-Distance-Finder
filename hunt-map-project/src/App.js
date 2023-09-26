@@ -46,6 +46,7 @@ function App() {
           {/* the content */}
           <Routes className="">
             <Route path="/" element={<Landing />} />
+            <Route path="/Hunt-Map-Distance-Finder" element={<Landing />} />
             <Route path="/S" element={<StillwaterRoute />} />
             <Route path="/L" element={<LawsonRoute />} />
             <Route path="/D" element={<DesalleRoute />} />
