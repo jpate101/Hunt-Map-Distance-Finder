@@ -72,7 +72,7 @@ function StillwaterRoute() {
         </Stage>
       </div>
       {distance !== null && (
-        <p>Distance between points: {distance*1.24533} meters</p>
+        <p>Distance between points: {distance*1.276} meters</p>
       )}
     
     </div>

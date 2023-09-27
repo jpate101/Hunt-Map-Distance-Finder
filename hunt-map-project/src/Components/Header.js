@@ -8,13 +8,13 @@ function Header() {
           <Link to="/Hunt-Map-Distance-Finder"><h2>Maps</h2></Link>
           <ul>
             <li>
-              <Link to="/S"><p>Stillwater Bayou</p></Link>
+              <Link to="/Hunt-Map-Distance-Finder/S"><p>Stillwater Bayou</p></Link>
             </li>
             <li>
-              <Link to="/L"><p>Lawson Delta</p></Link>
+              <Link to="/Hunt-Map-Distance-Finder/L"><p>Lawson Delta</p></Link>
             </li>
             <li>
-              <Link to="/D"><p>DeSalle</p></Link>
+              <Link to="/Hunt-Map-Distance-Finder/D"><p>DeSalle</p></Link>
             </li>
           </ul>
         </div>

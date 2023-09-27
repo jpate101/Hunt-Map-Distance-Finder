@@ -74,7 +74,7 @@ function DesalleRoute () {
         </Stage>
       </div>
       {distance !== null && (
-        <p>Distance between points: {distance*1.1876} meters</p>
+        <p>Distance between points: {distance*1.22} meters</p>
       )}
     
     </div>

@@ -15,19 +15,19 @@ const Landing = () => {
   return (
     <div className="flex-container landing-style">
       <div className="image-container-landing">
-        <Link to="/S">
+        <Link to="/Hunt-Map-Distance-Finder/S">
           <img src={stillwaterMap} className="centered-image" alt="missing image"/>
          <h2>Stillwatter Bayou</h2>
         </Link>
       </div>
       <div className="image-container-landing">
-        <Link to="/L">
+        <Link to="/Hunt-Map-Distance-Finder/L">
         <img src={lawsonMap} className="centered-image" alt="missing image"/>
          <h2>Lawson Delta</h2>
         </Link>
       </div>
       <div className="image-container-landing">
-        <Link to="/D">
+        <Link to="/Hunt-Map-Distance-Finder/D">
         <img src={desalleMap} className="centered-image" alt="missing image"/>
          <h2>Desalle</h2>
         </Link>
@@ -47,9 +47,9 @@ function App() {
           <Routes className="">
             <Route path="/" element={<Landing />} />
             <Route path="/Hunt-Map-Distance-Finder" element={<Landing />} />
-            <Route path="/S" element={<StillwaterRoute />} />
-            <Route path="/L" element={<LawsonRoute />} />
-            <Route path="/D" element={<DesalleRoute />} />
+            <Route path="/Hunt-Map-Distance-Finder/S" element={<StillwaterRoute />} />
+            <Route path="/Hunt-Map-Distance-Finder/L" element={<LawsonRoute />} />
+            <Route path="/Hunt-Map-Distance-Finder/D" element={<DesalleRoute />} />
           </Routes>
           
         </div>
